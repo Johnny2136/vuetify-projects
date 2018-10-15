@@ -5,4 +5,4 @@ new Vue({
   render: h => h(App),
 }).$mount('#app');
 
-// npm install @vue/cli --save
+//npm install webpack-dev-server --save-dev
