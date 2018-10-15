@@ -2,7 +2,27 @@
   "name": "vue-test-utils-getting-started",
   "version": "1.0.0",
   "dependencies": {
-    "vue": "^2.4.4"
+    "nuxt": "^2.2.0",
+    "vue": "^2.4.4",
+    "@vue/cli-plugin-babel": "^3.0.4",
+    "@vue/cli-plugin-e2e-nightwatch": "^3.0.4",
+    "@vue/cli-plugin-eslint": "^3.0.4",
+    "@vue/cli-plugin-pwa": "^3.0.4",
+    "@vue/cli-plugin-unit-jest": "^3.0.4",
+    "@vue/cli-service": "^3.0.4",
+    "@vue/eslint-config-airbnb": "^3.0.4",
+    "@vue/test-utils": "^1.0.0-beta.20",
+    "babel-core": "7.0.0-bridge.0",
+    "babel-jest": "^23.0.1",
+    "babel-plugin-transform-imports": "1.5.0",
+    "jest-html-reporter": "^2.4.2",
+    "less": "^3.0.4",
+    "less-loader": "^4.1.0",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.2",
+    "vue-template-compiler": "^2.5.17",
+    "webpack-dev-server": "^3.1.9",
+    "webpack-merge": "^4.1.4"
   },
   "devDependencies": {
     "@vue/test-utils": "^1.0.0-beta.13",
@@ -12,7 +32,7 @@
     "jsdom": "^12.2.0",
     "jsdom-global": "^3.0.2",
     "regenerator-runtime": "^0.11.0",
-    "vue-template-compiler": "^2.4.4",
+    "vue-template-compiler": "^2.5.17",
     "webpack-dev-server": "^3.1.9"
   },
   "scripts": {
