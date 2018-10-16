@@ -1,0 +1,140 @@
+johnn@DESKTOP-Johnny5 MINGW64 /d/johnny/GitHub/vuetify-projects/tdd-vue (feature)
+$ npm ls --depth=0 //{npm ls --depth=0 ← Shows locally installed items}
+vue-tdd@0.1.0 D:\johnny\GitHub\vuetify-projects\tdd-vue
++-- @vue/cli-plugin-babel@3.0.5
++-- @vue/cli-plugin-e2e-nightwatch@3.0.5
++-- @vue/cli-plugin-eslint@3.0.5
++-- @vue/cli-plugin-pwa@3.0.5
++-- @vue/cli-plugin-unit-jest@3.0.5
++-- @vue/cli-plugin-unit-mocha@3.0.5 extraneous
++-- @vue/cli-service@3.0.5
++-- @vue/eslint-config-prettier@3.0.5
++-- @vue/test-utils@1.0.0-beta.25
++-- babel-core@7.0.0-bridge.0
++-- babel-jest@23.6.0
++-- babel-plugin-transform-imports@1.5.0
++-- jest-cucumber@1.0.11
++-- jest-html-reporter@2.4.2
++-- nightwatch-api@0.4.0
++-- node-sass@4.9.3
++-- quasar-extras@2.0.8
++-- quasar-framework@0.17.17
++-- register-service-worker@1.5.2
++-- sass-loader@7.1.0
++-- stylus@0.54.5
++-- stylus-loader@3.0.2
++-- vue@2.5.17
++-- vue-cli-plugin-quasar@0.17.1
++-- vue-cli-plugin-unit-karma@0.5.0
++-- vue-router@3.0.1
+`-- vue-template-compiler@2.5.17
+
+npm ERR! extraneous: @vue/cli-plugin-unit-mocha@3.0.5 D:\johnny\GitHub\vuetify-projects\tdd-vue\node_modules\@vue\cli-plugin-unit-mocha
+npm ERR! peer dep missing: @babel/core@^7.0.0, required by babel-loader@8.0.4
+npm ERR! peer dep missing: webpack@^2.0.0 || ^3.0.0, required by karma-webpack@3.0.5
+npm ERR! missing: mkdirp@0.5.1, required by node-pre-gyp@0.10.0
+npm ERR! missing: minimist@0.0.8, required by mkdirp@0.5.1
+npm ERR! missing: minimatch@3.0.4, required by ignore-walk@3.0.1
+npm ERR! missing: brace-expansion@1.1.11, required by minimatch@3.0.4
+npm ERR! missing: balanced-match@1.0.0, required by brace-expansion@1.1.11
+npm ERR! missing: concat-map@0.0.1, required by brace-expansion@1.1.11
+npm ERR! missing: console-control-strings@1.1.0, required by npmlog@4.1.2
+npm ERR! missing: inherits@2.0.3, required by readable-stream@2.3.6
+npm ERR! missing: safe-buffer@5.1.1, required by readable-stream@2.3.6
+npm ERR! missing: safe-buffer@5.1.1, required by string_decoder@1.1.1
+npm ERR! missing: console-control-strings@1.1.0, required by gauge@2.7.4
+npm ERR! missing: string-width@1.0.2, required by gauge@2.7.4
+npm ERR! missing: strip-ansi@3.0.1, required by gauge@2.7.4
+npm ERR! missing: code-point-at@1.1.0, required by string-width@1.0.2
+npm ERR! missing: is-fullwidth-code-point@1.0.0, required by string-width@1.0.2
+npm ERR! missing: strip-ansi@3.0.1, required by string-width@1.0.2
+npm ERR! missing: number-is-nan@1.0.1, required by is-fullwidth-code-point@1.0.0
+npm ERR! missing: ansi-regex@2.1.1, required by strip-ansi@3.0.1
+npm ERR! missing: string-width@1.0.2, required by wide-align@1.1.2
+npm ERR! missing: inherits@2.0.3, required by glob@7.1.2
+npm ERR! missing: minimatch@3.0.4, required by glob@7.1.2
+npm ERR! missing: once@1.4.0, required by glob@7.1.2
+npm ERR! missing: once@1.4.0, required by inflight@1.0.6
+npm ERR! missing: wrappy@1.0.2, required by inflight@1.0.6
+npm ERR! missing: wrappy@1.0.2, required by once@1.4.0
+npm ERR! missing: minipass@2.2.4, required by tar@4.4.1
+npm ERR! missing: mkdirp@0.5.1, required by tar@4.4.1
+npm ERR! missing: safe-buffer@5.1.1, required by tar@4.4.1
+npm ERR! missing: yallist@3.0.2, required by tar@4.4.1
+npm ERR! missing: minipass@2.2.4, required by fs-minipass@1.2.5
+npm ERR! missing: safe-buffer@5.1.1, required by minipass@2.2.4
+npm ERR! missing: yallist@3.0.2, required by minipass@2.2.4
+npm ERR! missing: minipass@2.2.4, required by minizlib@1.1.0
+npm ERR! peer dep missing: webpack@^2.0.0 || ^3.0.0, required by karma-webpack@3.0.5
+
+johnn@DESKTOP-Johnny5 MINGW64 /d/johnny/GitHub/vuetify-projects/tdd-vue (feature)
+$ npm ls -g --depth=0 //{npm ls -g --depth=0 ← Shows globally installed items}
+vue-tdd@0.1.0 D:\johnny\GitHub\vuetify-projects\tdd-vue
++-- @vue/cli-plugin-babel@3.0.5
++-- @vue/cli-plugin-e2e-nightwatch@3.0.5
++-- @vue/cli-plugin-eslint@3.0.5
++-- @vue/cli-plugin-pwa@3.0.5
++-- @vue/cli-plugin-unit-jest@3.0.5
++-- @vue/cli-plugin-unit-mocha@3.0.5
++-- @vue/cli-service@3.0.5
++-- @vue/eslint-config-prettier@3.0.5
++-- @vue/test-utils@1.0.0-beta.25
++-- babel-core@7.0.0-bridge.0
++-- babel-jest@23.6.0
++-- babel-plugin-transform-imports@1.5.0
++-- jest-cucumber@1.0.11
++-- jest-html-reporter@2.4.2
++-- nightwatch-api@0.4.0
++-- node-sass@4.9.3
++-- quasar-extras@2.0.8
++-- quasar-framework@0.17.17
++-- register-service-worker@1.5.2
++-- sass-loader@7.1.0
++-- stylus@0.54.5
++-- stylus-loader@3.0.2
++-- vue@2.5.17
++-- vue-cli-plugin-quasar@0.17.1
++-- vue-cli-plugin-unit-karma@0.5.0
++-- vue-router@3.0.1
+`-- vue-template-compiler@2.5.17
+
+npm ERR! missing: mkdirp@0.5.1, required by node-pre-gyp@0.10.0
+npm ERR! missing: minimist@0.0.8, required by mkdirp@0.5.1
+npm ERR! missing: minimatch@3.0.4, required by ignore-walk@3.0.1
+npm ERR! missing: brace-expansion@1.1.11, required by minimatch@3.0.4
+npm ERR! missing: balanced-match@1.0.0, required by brace-expansion@1.1.11
+npm ERR! missing: concat-map@0.0.1, required by brace-expansion@1.1.11
+npm ERR! missing: console-control-strings@1.1.0, required by npmlog@4.1.2
+npm ERR! missing: inherits@2.0.3, required by readable-stream@2.3.6
+npm ERR! missing: safe-buffer@5.1.1, required by readable-stream@2.3.6
+npm ERR! missing: safe-buffer@5.1.1, required by string_decoder@1.1.1
+npm ERR! missing: console-control-strings@1.1.0, required by gauge@2.7.4
+npm ERR! missing: string-width@1.0.2, required by gauge@2.7.4
+npm ERR! missing: strip-ansi@3.0.1, required by gauge@2.7.4
+npm ERR! missing: code-point-at@1.1.0, required by string-width@1.0.2
+npm ERR! missing: is-fullwidth-code-point@1.0.0, required by string-width@1.0.2
+npm ERR! missing: strip-ansi@3.0.1, required by string-width@1.0.2
+npm ERR! missing: number-is-nan@1.0.1, required by is-fullwidth-code-point@1.0.0
+npm ERR! missing: ansi-regex@2.1.1, required by strip-ansi@3.0.1
+npm ERR! missing: string-width@1.0.2, required by wide-align@1.1.2
+npm ERR! missing: inherits@2.0.3, required by glob@7.1.2
+npm ERR! missing: minimatch@3.0.4, required by glob@7.1.2
+npm ERR! missing: once@1.4.0, required by glob@7.1.2
+npm ERR! missing: once@1.4.0, required by inflight@1.0.6
+npm ERR! missing: wrappy@1.0.2, required by inflight@1.0.6
+npm ERR! missing: wrappy@1.0.2, required by once@1.4.0
+npm ERR! missing: minipass@2.2.4, required by tar@4.4.1
+npm ERR! missing: mkdirp@0.5.1, required by tar@4.4.1
+npm ERR! missing: safe-buffer@5.1.1, required by tar@4.4.1
+npm ERR! missing: yallist@3.0.2, required by tar@4.4.1
+npm ERR! missing: minipass@2.2.4, required by fs-minipass@1.2.5
+npm ERR! missing: safe-buffer@5.1.1, required by minipass@2.2.4
+npm ERR! missing: yallist@3.0.2, required by minipass@2.2.4
+npm ERR! missing: minipass@2.2.4, required by minizlib@1.1.0
+npm ERR! peer dep missing: @babel/core@^7.0.0, required by babel-loader@8.0.4
+npm ERR! peer dep missing: webpack@^2.0.0 || ^3.0.0, required by karma-webpack@3.0.5
+npm ERR! peer dep missing: webpack@^2.0.0 || ^3.0.0, required by karma-webpack@3.0.5
+
+johnn@DESKTOP-Johnny5 MINGW64 /d/johnny/GitHub/vuetify-projects/tdd-vue (feature)
+$
+
